@@ -1,0 +1,64 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Piano - Home</title>
+    <link rel="stylesheet" href="{% static "main/index.css" %}"/>
+</head>
+<body>
+    <header>
+        <h1>Cafe Piano</h1>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div>
+            <h2>Welcome to Cafe Piano</h2>
+            <p>Your go-to place for delightful coffee and treats.</p>
+            <button>Explore Menu</button>
+        </div>
+    </div>
+
+    <section id="menu">
+        <h3>Our Menu</h3>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/300" alt="Coffee">
+                <h4>Latte</h4>
+                <p>Smooth and creamy latte with a hint of vanilla.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/300" alt="Pastry">
+                <h4>Blueberry Muffin</h4>
+                <p>Freshly baked muffin with juicy blueberries.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/300" alt="Sandwich">
+                <h4>Avocado Toast</h4>
+                <p>Classic avocado toast with a sprinkle of chili flakes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h3>About Us</h3>
+        <p>Cafe Piano is your local neighborhood coffee shop, serving freshly brewed coffee and delicious treats every day.</p>
+    </section>
+
+    <section id="contact">
+        <h3>Contact Us</h3>
+        <p>Email: contact@cafepiano.com | Phone: (123) 456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cafe Piano | Designed with love by <a href="#">Cafe Piano Team</a></p>
+    </footer>
+</body>
+</html>
